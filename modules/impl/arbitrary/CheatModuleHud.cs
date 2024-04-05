@@ -101,7 +101,7 @@ namespace PixelGunCheat.modules.impl.arbitrary
             {
                 Renderer.SetFontSize(Renderer.ScaleValInt(32));
             Renderer.DrawSquare(new Vector2(20, 100), new Vector2(Renderer.ScaleValInt(300), Renderer.ScaleValInt(70)), new Color(0, 0,0, 0.75f));
-            Renderer.DrawStringShadow(new Vector2(25, 120), " BoyKisserCentral", _gay.AsARGB(1), false);
+            Renderer.DrawStringShadow(new Vector2(25, 120), " MenKisserCentral", _gay.AsARGB(1), false);
             //Renderer.SetFontSize(Renderer.ScaleValInt(24));
            // Renderer.DrawStringShadow(new Vector2(25, 25 + Renderer.ScaleValInt(34)), "github.com/stanuwu & github.com/hiderikzki", _gay.AsARGB(1), false);
             Renderer.SetFontSize(Renderer.ScaleValInt(20));
