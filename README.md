@@ -1,4 +1,4 @@
-# MenKisserCentral - A Pixelgun 3D Cheat
+# MenKisserCentral - A Pixelgun 3D PC Cheat
 > Thanks to stanuwu for the original project
 
 > Requires BepInEx 6 IL2CPP
