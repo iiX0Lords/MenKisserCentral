@@ -1,7 +1,5 @@
-# MenKisserCentral
-# A Pixelgun 3D Cheat
-
-# Thanks to stanuwu for the original project
+# MenKisserCentral - A Pixelgun 3D Cheat
+> Thanks to stanuwu for the original project
 
 ## Features:
 - AimBot
