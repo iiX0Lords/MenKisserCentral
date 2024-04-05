@@ -23,4 +23,6 @@
 - Reach
 - NoRecoil (and spread)
 - ScoreMultiplier
+- Fly
+- ExplosiveAmmo
 
