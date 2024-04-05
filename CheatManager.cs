@@ -35,7 +35,9 @@ namespace PixelGunCheat
         private readonly CheatModuleGemGenerator _modGemGenerator = new(Key.None);
         private readonly CheatModuleCoinGenerator _modCoinGenerator = new(Key.None);
         private readonly CheatModuleUberCharge _modUberCharge = new(Key.None);
-        
+        private readonly CheatModuleExplosiveBullets _modExploBullets = new(Key.None);
+
+
         private readonly CheatModuleHud _modHud = new(Key.None);
         
         private readonly CheatModuleTest _modTest = new(Key.None);
@@ -52,7 +54,7 @@ namespace PixelGunCheat
         {
             Debug.Log("Loaded Cheat");
             gameObject.hideFlags = HideFlags.HideAndDontSave;
-            _modHud.registerModules(_modNoRecoil, _modAllFullAuto, _modUberCharge, _modInfRange, _modAimUtils, _modScoreModif, _modCoinDrop, _modIceSwordAura, _modAOEBullet, _modForceCrit, _modInfAmmo, _modEffectSpam, _modDropTeleport, _modSpeed, _modFly, _modAimBot, _modEsp, _modMotionBlur, _modInvis, _modAutoHeal, _modGemGenerator, _modCoinGenerator);
+            _modHud.registerModules(_modNoRecoil, _modAllFullAuto, _modUberCharge, _modInfRange, _modAimUtils, _modScoreModif, _modCoinDrop, _modIceSwordAura, _modExploBullets, _modAOEBullet, _modForceCrit, _modInfAmmo, _modEffectSpam, _modDropTeleport, _modSpeed, _modFly, _modAimBot, _modEsp, _modMotionBlur, _modInvis, _modAutoHeal, _modGemGenerator, _modCoinGenerator);
         }
 
         private void OnDestroy()
@@ -134,6 +136,9 @@ namespace PixelGunCheat
                 
                 // Gives Target All Effects (or at least tries to)
                 _modEffectSpam.HandleCheat(weaponSounds);
+
+                // Explosive Bullets
+                _modExploBullets.HandleCheat(weaponSounds);
             }
             
             if (tickCount % 30 == 0)
