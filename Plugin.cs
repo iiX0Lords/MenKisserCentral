@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace PixelGunCheat;
 
-[BepInPlugin("com.stanuwu.pixelguncheat", "PixelGunCheat", "1.0.0")]
+[BepInPlugin("com.iiX0Lord.pixelguncheat", "MenKisserCentral", "1.0.2")]
 public class Plugin : BasePlugin
 {
     public GameObject ManagerHook;

@@ -180,6 +180,8 @@ namespace PixelGunCheat
             // Speed Hack
             if (player == null) return;
             _modSpeed.HandleCheat(player);
+
+            // Fly
             _modFly.HandleCheat(player);
         }
     }
